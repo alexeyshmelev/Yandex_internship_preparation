@@ -10,3 +10,4 @@
 | [Tricking Neural Networks: Create your own Adversarial Examples](https://medium.com/@ml.at.berkeley/tricking-neural-networks-create-your-own-adversarial-examples-a61eb7620fd8) | --- | Pro | Medium | Using noise to crack neural network | ENG |
 | [Создание простой нейронной сети на Python](https://medium.com/nuances-of-programming/создание-простой-нейронной-сети-на-python-7d7caead7fd1) | NumPy, Scikit-learn, Matplotlib | Beginner | Medium | --- | ENG |
 | [Generative adversarial networks](https://habr.com/ru/post/352794/) | Tensorflow | Medium | Habr | --- | RUS |
+| [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://wiki.pathmind.com/generative-adversarial-network-gan) | Tensorflow | Medium | Internet | There are a lot of different papers in comment of this site | ENG |
