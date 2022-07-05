@@ -1,6 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 import tensorflow as tf
+import os
 
 print("We're using TF", tf.__version__)
 
@@ -90,4 +91,12 @@ model.summary()
 train_data = DataGen(True)
 val_data = DataGen(False)
 
-model.fit(train_data, validation_data=val_data, epochs=10)
+cp_callback = tf.keras.callbacks.ModelCheckpoint(
+        filepath="saved_network.hdf5",
+        verbose=1,
+        save_weights_only=True,
+        save_best_only=True,
+        monitor='sparse_categorical_accuracy',
+        mode='max')
+
+model.fit(train_data, validation_data=val_data, epochs=5, callbacks=[cp_callback])
