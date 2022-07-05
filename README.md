@@ -11,3 +11,4 @@
 | [Создание простой нейронной сети на Python](https://medium.com/nuances-of-programming/создание-простой-нейронной-сети-на-python-7d7caead7fd1) | NumPy, Scikit-learn, Matplotlib | Beginner | Medium | --- | ENG |
 | [Generative adversarial networks](https://habr.com/ru/post/352794/) | Tensorflow | Medium | Habr | --- | RUS |
 | [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://wiki.pathmind.com/generative-adversarial-network-gan) | Tensorflow | Medium | Internet | There are a lot of different papers in comment of this site | ENG |
+| [GANs from Scratch 1: A deep introduction. With code in PyTorch and TensorFlow](https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f) | Pytorch | Beginner (in GANs) | Medium | --- | ENG |
