@@ -13,3 +13,4 @@
 | [A Beginner's Guide to Generative Adversarial Networks (GANs)](https://wiki.pathmind.com/generative-adversarial-network-gan) | Tensorflow | Medium | Internet | There are a lot of different papers in comment of this site | ENG |
 | [GANs from Scratch 1: A deep introduction. With code in PyTorch and TensorFlow](https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f) | Pytorch | Beginner (in GANs) | Medium | --- | ENG |
 | [A Survey of Visual Attention Mechanisms in Deep Learning](https://shairozsohail.medium.com/a-survey-of-visual-attention-mechanisms-in-deep-learning-1043eb25f343) | Only math | Pro | Medium | --- | ENG |
+| [Attention mechanism](https://medium.com/heuritech/attention-mechanism-5aba9a2d4727) | Only math | Pro | Medium | --- | ENG |
