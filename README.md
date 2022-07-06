@@ -14,3 +14,4 @@
 | [GANs from Scratch 1: A deep introduction. With code in PyTorch and TensorFlow](https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f) | Pytorch | Beginner (in GANs) | Medium | --- | ENG |
 | [A Survey of Visual Attention Mechanisms in Deep Learning](https://shairozsohail.medium.com/a-survey-of-visual-attention-mechanisms-in-deep-learning-1043eb25f343) | Only math | Pro | Medium | --- | ENG |
 | [Attention mechanism](https://medium.com/heuritech/attention-mechanism-5aba9a2d4727) | Only math | Pro | Medium | --- | ENG |
+| [Нейросеть — обучение без учителя. Метод Policy Gradient](https://habr.com/ru/post/506384/) | PyTorch | Medium | Habr | Пример игры где ракетка пытается поймать кубики падающие сверху | RUS |
