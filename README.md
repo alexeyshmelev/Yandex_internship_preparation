@@ -15,3 +15,4 @@
 | [A Survey of Visual Attention Mechanisms in Deep Learning](https://shairozsohail.medium.com/a-survey-of-visual-attention-mechanisms-in-deep-learning-1043eb25f343) | Only math | Pro | Medium | --- | ENG |
 | [Attention mechanism](https://medium.com/heuritech/attention-mechanism-5aba9a2d4727) | Only math | Pro | Medium | --- | ENG |
 | [Нейросеть — обучение без учителя. Метод Policy Gradient](https://habr.com/ru/post/506384/) | PyTorch | Medium | Habr | Пример игры где ракетка пытается поймать кубики падающие сверху | RUS |
+| [Neural Architecture Search (NAS): basic principles and different approaches](https://theaisummer.com/neural-architecture-search/) | Pytorch | Pro+ | Internet | neural network intelligence (nni) package by Microsoft | ENG |
