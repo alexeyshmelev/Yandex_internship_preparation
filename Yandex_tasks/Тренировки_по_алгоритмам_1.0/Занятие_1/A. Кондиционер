@@ -28,6 +28,7 @@ def mmax(x, d):
 try:
     f = open('input.txt')
     lines = f.readlines()
+    f.close()
 except FileNotFoundError:
     lines = []
     lines.append(input())
