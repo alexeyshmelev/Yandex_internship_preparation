@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.20)  24 JUL 2022 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.20)  25 JUL 2022 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -661,7 +661,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Underfull \vbox (badness 7291) has occurred while \output is active []
+
+ [1
 
 
 Non-PDF special ignored!
@@ -699,26 +702,12 @@ Overfull \hbox (18.79807pt too wide) in paragraph at lines 76--77
 
 [4]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-
-LaTeX Warning: File `drawing.pdf' not found on input line 102.
-
-
-! Package pdftex.def Error: File `drawing.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.102 		\includegraphics[width=80mm]{drawing.pdf}
-                                                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-102.
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+<pictures/linear_models/Class_models.pdf, id=151, 451.16985pt x 207.74834pt>
+File: pictures/linear_models/Class_models.pdf Graphic file (type pdf)
+<use pictures/linear_models/Class_models.pdf>
+Package pdftex.def Info: pictures/linear_models/Class_models.pdf  used on input
+ line 102.
+(pdftex.def)             Requested size: 369.88582pt x 170.32303pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -734,29 +723,18 @@ Underfull \vbox (badness 1314) has occurred while \output is active []
  [5
 
 ]
-Underfull \vbox (badness 3240) has occurred while \output is active []
-
- [6]
+[6 <./pictures/linear_models/Class_models.pdf>]
 
 LaTeX Warning: Command \CYRV invalid in math mode on input line 158.
 
 Missing character: There is no ¬ in font cmr10!
 [7] [8]
-
-LaTeX Warning: File `SGD_GD.pdf' not found on input line 181.
-
-
-! Package pdftex.def Error: File `SGD_GD.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 		\includegraphics[width=80mm]{SGD_GD.pdf}
-                                                
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<pictures/linear_models/SGD_GD.pdf, id=192, 468.76657pt x 158.71245pt>
+File: pictures/linear_models/SGD_GD.pdf Graphic file (type pdf)
+<use pictures/linear_models/SGD_GD.pdf>
+Package pdftex.def Info: pictures/linear_models/SGD_GD.pdf  used on input line 
+181.
+(pdftex.def)             Requested size: 369.88582pt x 125.23615pt.
 
 Overfull \hbox (0.54536pt too wide) in paragraph at lines 186--187
 \T2A/cmr/bx/n/10 муль-ти-кол-ли-не-ар-ность\T2A/cmr/m/n/10 . —им-мет-рич-на€ ма
@@ -769,7 +747,6 @@ Overfull \hbox (2.574pt too wide) in paragraph at lines 199--200
 и, про-диф-фе-рен-ци-ро-вав но-вый лосс, по-лу-чим <<точ-
  []
 
-[9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 208.
@@ -783,195 +760,197 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 208.
 
 
-Overfull \hbox (0.8644pt too wide) in paragraph at lines 228--229
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./pictures/linear_models/SGD_GD.pdf>]
+Overfull \hbox (0.8644pt too wide) in paragraph at lines 227--228
 []\T2A/cmr/m/n/10 ¬ыборка, дл€ ко-то-рой воз-мож-на плос-кость, ко-то-ра€ иде-а
 ль-но раз-де-лит клас-
  []
 
 
-Underfull \vbox (badness 2189) has occurred while \output is active []
-
- [10]
-Overfull \hbox (2.6808pt too wide) in paragraph at lines 241--244
+Overfull \hbox (2.6808pt too wide) in paragraph at lines 240--243
 \T2A/cmr/m/n/10 где $\OML/cmm/m/it/10 M \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 y[]\
 OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 !; x[]\OMS/cmsy/m/n/10 i$ \T2A/cmr/m/n/10 -- 
 \T2A/cmr/bx/n/10 от-ступ (margin) \T2A/cmr/m/n/10 клас-си-фи-ка-то-ра, ошиб-ка 
 -- \T2A/cmr/bx/n/10 misclassification
  []
 
-[11] [12]
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-<pictures/backpropagation/1-1-1_network.png, id=205, 702.625pt x 287.0725pt>
+<pictures/backpropagation/1-1-1_network.png, id=221, 702.625pt x 287.0725pt>
 File: pictures/backpropagation/1-1-1_network.png Graphic file (type png)
 <use pictures/backpropagation/1-1-1_network.png>
 Package pdftex.def Info: pictures/backpropagation/1-1-1_network.png  used on in
-put line 309.
+put line 353.
 (pdftex.def)             Requested size: 369.88582pt x 151.12706pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13
+[14
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 318.
+(hyperref)                removing `math shift' on input line 362.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 318.
+(hyperref)                removing `math shift' on input line 362.
 
-<pictures/backpropagation/last_layer.png, id=212, 702.625pt x 351.3125pt>
+<pictures/backpropagation/last_layer.png, id=227, 702.625pt x 351.3125pt>
 File: pictures/backpropagation/last_layer.png Graphic file (type png)
 <use pictures/backpropagation/last_layer.png>
 Package pdftex.def Info: pictures/backpropagation/last_layer.png  used on input
- line 324.
+ line 368.
 (pdftex.def)             Requested size: 369.88582pt x 184.94571pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[14 <./pictures/backpropagation/1-1-1_network.png (PNG copy)>]
-<pictures/backpropagation/sigma.png, id=220, 702.625pt x 302.12875pt>
+[15 <./pictures/backpropagation/1-1-1_network.png (PNG copy)>]
+<pictures/backpropagation/sigma.png, id=235, 702.625pt x 302.12875pt>
 File: pictures/backpropagation/sigma.png Graphic file (type png)
 <use pictures/backpropagation/sigma.png>
 Package pdftex.def Info: pictures/backpropagation/sigma.png  used on input line
- 333.
+ 377.
 (pdftex.def)             Requested size: 369.88582pt x 159.05331pt.
-<pictures/backpropagation/chain_rule.png, id=221, 702.625pt x 413.545pt>
+<pictures/backpropagation/chain_rule.png, id=236, 702.625pt x 413.545pt>
 File: pictures/backpropagation/chain_rule.png Graphic file (type png)
 <use pictures/backpropagation/chain_rule.png>
 Package pdftex.def Info: pictures/backpropagation/chain_rule.png  used on input
- line 342.
+ line 386.
 (pdftex.def)             Requested size: 369.88582pt x 217.70752pt.
- [15 <./pictures/backpropagation/last_layer.png (PNG copy)> <./pictures/backpro
+ [16 <./pictures/backpropagation/last_layer.png (PNG copy)> <./pictures/backpro
 pagation/sigma.png (PNG copy)>]
-<pictures/backpropagation/derivative_itself.png, id=229, 702.625pt x 214.8025pt
+<pictures/backpropagation/derivative_itself.png, id=244, 702.625pt x 214.8025pt
 >
 File: pictures/backpropagation/derivative_itself.png Graphic file (type png)
 <use pictures/backpropagation/derivative_itself.png>
 Package pdftex.def Info: pictures/backpropagation/derivative_itself.png  used o
-n input line 351.
+n input line 395.
 (pdftex.def)             Requested size: 369.88582pt x 113.08109pt.
- [16 <./pictures/backpropagation/chain_rule.png (PNG copy)> <./pictures/backpro
+ [17 <./pictures/backpropagation/chain_rule.png (PNG copy)> <./pictures/backpro
 pagation/derivative_itself.png (PNG copy)>]
-<pictures/backpropagation/bias.png, id=236, 702.625pt x 412.54124pt>
+<pictures/backpropagation/bias.png, id=251, 702.625pt x 412.54124pt>
 File: pictures/backpropagation/bias.png Graphic file (type png)
 <use pictures/backpropagation/bias.png>
 Package pdftex.def Info: pictures/backpropagation/bias.png  used on input line 
-372.
+416.
 (pdftex.def)             Requested size: 369.88582pt x 217.17911pt.
-<pictures/backpropagation/derivative_itself_bias.png, id=237, 702.625pt x 229.8
+<pictures/backpropagation/derivative_itself_bias.png, id=252, 702.625pt x 229.8
 5875pt>
 File: pictures/backpropagation/derivative_itself_bias.png Graphic file (type pn
 g)
 <use pictures/backpropagation/derivative_itself_bias.png>
 Package pdftex.def Info: pictures/backpropagation/derivative_itself_bias.png  u
-sed on input line 381.
+sed on input line 425.
 (pdftex.def)             Requested size: 369.88582pt x 121.00732pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17 <./pictures/backpropagation/bias.png (PNG copy)>]
-<pictures/backpropagation/updating.png, id=243, 702.625pt x 366.36874pt>
+[18 <./pictures/backpropagation/bias.png (PNG copy)>]
+<pictures/backpropagation/updating.png, id=258, 702.625pt x 366.36874pt>
 File: pictures/backpropagation/updating.png Graphic file (type png)
 <use pictures/backpropagation/updating.png>
 Package pdftex.def Info: pictures/backpropagation/updating.png  used on input l
-ine 390.
+ine 434.
 (pdftex.def)             Requested size: 369.88582pt x 192.87195pt.
-<pictures/backpropagation/last_activation.png, id=245, 702.625pt x 418.56375pt>
+<pictures/backpropagation/last_activation.png, id=260, 702.625pt x 418.56375pt>
 
 File: pictures/backpropagation/last_activation.png Graphic file (type png)
 <use pictures/backpropagation/last_activation.png>
 Package pdftex.def Info: pictures/backpropagation/last_activation.png  used on 
-input line 403.
+input line 447.
 (pdftex.def)             Requested size: 369.88582pt x 220.34961pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<pictures/backpropagation/last_activation_itself.png, id=246, 702.625pt x 206.7
+<pictures/backpropagation/last_activation_itself.png, id=261, 702.625pt x 206.7
 725pt>
 File: pictures/backpropagation/last_activation_itself.png Graphic file (type pn
 g)
 <use pictures/backpropagation/last_activation_itself.png>
 Package pdftex.def Info: pictures/backpropagation/last_activation_itself.png  u
-sed on input line 412.
+sed on input line 456.
 (pdftex.def)             Requested size: 369.88582pt x 108.85376pt.
 
 Underfull \vbox (badness 1960) has occurred while \output is active []
 
- [18 <./pictures/backpropagation/derivative_itself_bias.png (PNG copy)> <./pict
+ [19 <./pictures/backpropagation/derivative_itself_bias.png (PNG copy)> <./pict
 ures/backpropagation/updating.png (PNG copy)>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 417.
+(hyperref)                removing `math shift' on input line 461.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 417.
+(hyperref)                removing `math shift' on input line 461.
 
-<pictures/backpropagation/first_layer.png, id=253, 702.625pt x 226.8475pt>
+<pictures/backpropagation/first_layer.png, id=269, 702.625pt x 226.8475pt>
 File: pictures/backpropagation/first_layer.png Graphic file (type png)
 <use pictures/backpropagation/first_layer.png>
 Package pdftex.def Info: pictures/backpropagation/first_layer.png  used on inpu
-t line 423.
+t line 467.
 (pdftex.def)             Requested size: 369.88582pt x 119.42209pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.88303pt too wide) in paragraph at lines 428--429
+Overfull \hbox (6.88303pt too wide) in paragraph at lines 472--473
 []\T2A/cmr/m/n/10 јналогично, ис-поль-зу€ цеп-ное пра-ви-ло, по-смот-рим, как и
 з-ме-не-ние ве-са $\OML/cmm/m/it/10 w[]$
  []
 
-[19 <./pictures/backpropagation/last_activation.png (PNG copy)> <./pictures/bac
+[20 <./pictures/backpropagation/last_activation.png (PNG copy)> <./pictures/bac
 kpropagation/last_activation_itself.png (PNG copy)>]
-<pictures/backpropagation/first_layer_weight.png, id=261, 702.625pt x 477.785pt
+<pictures/backpropagation/first_layer_weight.png, id=276, 702.625pt x 477.785pt
 >
 File: pictures/backpropagation/first_layer_weight.png Graphic file (type png)
 <use pictures/backpropagation/first_layer_weight.png>
 Package pdftex.def Info: pictures/backpropagation/first_layer_weight.png  used 
-on input line 432.
+on input line 476.
 (pdftex.def)             Requested size: 369.88582pt x 251.52617pt.
-<pictures/backpropagation/first_layer_itself.png, id=262, 702.625pt x 133.49875
+<pictures/backpropagation/first_layer_itself.png, id=277, 702.625pt x 133.49875
 pt>
 File: pictures/backpropagation/first_layer_itself.png Graphic file (type png)
 <use pictures/backpropagation/first_layer_itself.png>
 Package pdftex.def Info: pictures/backpropagation/first_layer_itself.png  used 
-on input line 441.
+on input line 485.
 (pdftex.def)             Requested size: 369.88582pt x 70.27936pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
-[20 <./pictures/backpropagation/first_layer.png (PNG copy)> <./pictures/backpro
-pagation/first_layer_weight.png (PNG copy)>] [21 <./pictures/backpropagation/fi
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
+[21 <./pictures/backpropagation/first_layer.png (PNG copy)> <./pictures/backpro
+pagation/first_layer_weight.png (PNG copy)>] [22 <./pictures/backpropagation/fi
 rst_layer_itself.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
  (./ML.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
 Package rerunfilecheck Info: File `ML.out' has not changed.
-(rerunfilecheck)             Checksum: BA55489ED476192FA4FF3DCDC9F331C7;4816.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
+(rerunfilecheck)             Checksum: 97C98FD52FB9BC5FF2BC8C2CB8B4C25F;5063.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 513.
  ) 
 Here is how much of TeX's memory you used:
- 13631 strings out of 482657
- 195774 string characters out of 5957837
- 447495 words of memory out of 5000000
- 28362 multiletter control sequences out of 15000+600000
- 551674 words of font info for 67 fonts, out of 8000000 for 9000
+ 13584 strings out of 482657
+ 195185 string characters out of 5957837
+ 450495 words of memory out of 5000000
+ 28328 multiletter control sequences out of 15000+600000
+ 551364 words of font info for 66 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 48i,12n,46p,1773b,1775s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/danila/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1000.600p
-k> </home/danila/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600p
+ 48i,12n,46p,1773b,1006s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/danila/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600p
 k> </home/danila/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.60
 0pk> </home/danila/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1000.60
 0pk> </home/danila/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.60
@@ -989,12 +968,13 @@ s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb>
-Output written on ML.pdf (21 pages, 700701 bytes).
+sy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+
+Output written on ML.pdf (22 pages, 741967 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
- 309 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 242 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 714 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

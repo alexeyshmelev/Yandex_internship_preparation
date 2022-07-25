@@ -99,7 +99,7 @@ linkcolor=red
 	\end{equation*}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=80mm]{Class_models.pdf}
+		\includegraphics[width=\linewidth]{pictures/linear_models/Class_models.pdf}
 	\end{figure}
 	
 	\subsection{Линейная регрессия и МНК}
@@ -178,7 +178,7 @@ linkcolor=red
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=80mm]{SGD_GD.pdf}
+		\includegraphics[width=\linewidth]{pictures/linear_models/SGD_GD.pdf}
 	\end{figure}
 	
 	\subsection{Регуляризация}
@@ -280,6 +280,51 @@ linkcolor=red
 	\end{equation*}
 	
 	Ближайшие к плоскости правильно классифицированные объекты называют \textbf{опорные векторы (support vectors)}. Итоговое положение задается такими обучающимися примерами -- такой зовется \textbf{метод опорных векторов (support vector machine)}.
+	
+	\subsection{Логистическая регрессия}
+	
+	Появляется желание посмотреть на классификацию, как на задачу предсказания вероятностей. Научим линейную модель предсказывать какой-то объект, связанный с вероятностью, но с диапазоном значений $(-\infty, +\infty)$. Таким объектом является \textbf{logit} или \textbf{log odds}: $\log\left(\frac{p}{1-p}\right)$. Тогда:
+	\begin{equation*}
+		\langle\omega,x_i\rangle = \log\left(\frac{p}{1 - p}\right)
+	\end{equation*}
+	\begin{equation*}
+		e^{\langle\omega,x_i\rangle}  = \frac{p}{1 - p}
+	\end{equation*}
+	\begin{equation*}
+		p = \frac{1}{1 + e^{-\langle\omega,x_i\rangle}}.
+	\end{equation*}
+	Данная фукнция называется \textbf{сигмоидой} и обозначается $\sigma(z) = \frac{1}{1 + e^{-z}}$.
+	
+	Для наилучшей оптимизации $\omega$ применим метод максимума правдоподобия для распределения Бернулли. Оно позволяет нам понять, насколько вероятно получить данные значения таргета $y$ при данных $X$ и весах $\omega$:
+	\begin{equation*}
+		p\left(y | X,\omega\right) = \prod_i p(y_i | x_i, \omega).
+	\end{equation*}
+	Для распределения Бернулли:
+	\begin{equation*}
+		p\left(y | X,\omega\right) = \prod_i p_i^{y_i} (1 - p_i)^{1 - y_i},
+	\end{equation*}
+	где $p_i$ -- вероятность, посчитанная из ответов модели. Перейдём к логарифмическому правдоподобию и подставим прошлую формулу:
+	\begin{multline*}
+		l\left(\omega, X, y\right) = \sum_{i}(y_i \log(p_i) + (1 - y_i) \log(1 - p_i)) = \\
+		= \sum_{i}(y_i \log(\sigma(\langle \omega, x_i \rangle)) + (1 - y_i) \log(1 - \sigma(\langle\omega,x_i\rangle))) 
+	\end{multline*}
+	Так как $\sigma(-z) = \frac{1}{1 + e^z} = \frac{e^{-z}}{e^{-z} + 1} = 1 - \sigma(z)$, то:
+	\begin{equation*}
+		l(\omega, X, y) = \sum_{i}(y_i \log(\sigma(\rangle\omega,x_i\rangle)) + (1 - y_i)\log(\sigma(-\langle\omega,x_i\rangle))).
+	\end{equation*}
+	
+	В максимуме данной отрицательной фукнции находится наше оптимизицанное значение $\omega$. Для минимизации функциЯ лосса выглядит следующим образом:
+	\begin{equation*}
+		L(\omega, X, y) = -\sum_{i}(y_i \log(\sigma(\rangle\omega,x_i\rangle)) + (1 - y_i)\log(\sigma(-\langle\omega,x_i\rangle))).
+	\end{equation*}
+	
+	Градиент функции:
+	\begin{equation*}
+		\nabla_\omega L(y, X, \omega) = - \sum_{i} x_i (y_i - \sigma(\langle\omega,x_i\rangle))).
+	\end{equation*}
+	
+	Наше предсказание лежит в пределе от 0 до 1. Находить порог между этими двумя классами
+	лучше отдельно, для уже построенной регрессии, минимизируя нужную метрику на отложенной тестовой выборке.
 	
 	\chapter{Основные алгоритмы}
 	
@@ -443,5 +488,26 @@ linkcolor=red
 	\end{figure}
 	
 	Аналогичным образом можно посчитать градиенты для всех весов и биасов. Этот алгоритм называется \textbf{обратным распространением ошибки}.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 \end{document}
